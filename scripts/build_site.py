@@ -59,7 +59,7 @@ def page(title: str, body: str, root: str, active: str, accent: str = "#2F6F5E")
 <html lang="ko">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="{accent}">
 <title>{esc(title)}</title>
 <link rel="icon" href="{FAVICON}">
@@ -289,7 +289,10 @@ body {
   font-size: 17px; line-height: 1.75;
   -webkit-font-smoothing: antialiased;
 }
-main { max-width: 680px; margin: 0 auto; padding: 28px 20px 96px; }
+main {
+  max-width: 680px; margin: 0 auto;
+  padding: 28px 20px calc(110px + env(safe-area-inset-bottom, 0px));
+}
 a { color: var(--accent); text-decoration: none; }
 
 .brief-head { margin-bottom: 8px; }
@@ -361,10 +364,10 @@ details[open] summary { margin-bottom: 6px; }
   position: fixed; bottom: 0; left: 0; right: 0;
   display: flex; background: var(--bg);
   border-top: 1px solid var(--border);
-  padding-bottom: env(safe-area-inset-bottom);
+  padding-bottom: max(10px, env(safe-area-inset-bottom, 10px));
 }
 .bottom-nav a {
-  flex: 1; text-align: center; padding: 14px 0 12px;
+  flex: 1; text-align: center; padding: 13px 0 11px;
   font-size: 14px; font-weight: 600; color: var(--muted);
 }
 .bottom-nav a.active { color: var(--accent); }
