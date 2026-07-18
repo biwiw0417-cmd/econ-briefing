@@ -1,0 +1,322 @@
+[
+  {
+    "unit": 1,
+    "unit_title": "경제의 기본 원리",
+    "topic": "희소성과 선택",
+    "completed": true,
+    "date": "2026-07-17",
+    "briefing_url": "/archive/2026-07-17/"
+  },
+  {
+    "unit": 1,
+    "unit_title": "경제의 기본 원리",
+    "topic": "기회비용",
+    "completed": false,
+    "date": null,
+    "briefing_url": null
+  },
+  {
+    "unit": 1,
+    "unit_title": "경제의 기본 원리",
+    "topic": "수요와 공급의 법칙",
+    "completed": false,
+    "date": null,
+    "briefing_url": null
+  },
+  {
+    "unit": 1,
+    "unit_title": "경제의 기본 원리",
+    "topic": "가격은 어떻게 결정되는가",
+    "completed": false,
+    "date": null,
+    "briefing_url": null
+  },
+  {
+    "unit": 1,
+    "unit_title": "경제의 기본 원리",
+    "topic": "탄력성 (가격이 변하면 얼마나 반응하나)",
+    "completed": false,
+    "date": null,
+    "briefing_url": null
+  },
+  {
+    "unit": 2,
+    "unit_title": "시장과 정부",
+    "topic": "시장의 종류와 경쟁",
+    "completed": false,
+    "date": null,
+    "briefing_url": null
+  },
+  {
+    "unit": 2,
+    "unit_title": "시장과 정부",
+    "topic": "독점과 과점",
+    "completed": false,
+    "date": null,
+    "briefing_url": null
+  },
+  {
+    "unit": 2,
+    "unit_title": "시장과 정부",
+    "topic": "외부효과 (시장이 실패할 때)",
+    "completed": false,
+    "date": null,
+    "briefing_url": null
+  },
+  {
+    "unit": 2,
+    "unit_title": "시장과 정부",
+    "topic": "공공재와 무임승차",
+    "completed": false,
+    "date": null,
+    "briefing_url": null
+  },
+  {
+    "unit": 2,
+    "unit_title": "시장과 정부",
+    "topic": "정부는 언제 개입하는가",
+    "completed": false,
+    "date": null,
+    "briefing_url": null
+  },
+  {
+    "unit": 3,
+    "unit_title": "화폐와 금융 시스템",
+    "topic": "화폐란 무엇인가",
+    "completed": false,
+    "date": null,
+    "briefing_url": null
+  },
+  {
+    "unit": 3,
+    "unit_title": "화폐와 금융 시스템",
+    "topic": "은행과 신용창조",
+    "completed": false,
+    "date": null,
+    "briefing_url": null
+  },
+  {
+    "unit": 3,
+    "unit_title": "화폐와 금융 시스템",
+    "topic": "중앙은행의 역할",
+    "completed": false,
+    "date": null,
+    "briefing_url": null
+  },
+  {
+    "unit": 3,
+    "unit_title": "화폐와 금융 시스템",
+    "topic": "기준금리란",
+    "completed": false,
+    "date": null,
+    "briefing_url": null
+  },
+  {
+    "unit": 3,
+    "unit_title": "화폐와 금융 시스템",
+    "topic": "통화정책 (금리를 올리고 내리는 이유)",
+    "completed": false,
+    "date": null,
+    "briefing_url": null
+  },
+  {
+    "unit": 4,
+    "unit_title": "물가",
+    "topic": "인플레이션의 원인",
+    "completed": false,
+    "date": null,
+    "briefing_url": null
+  },
+  {
+    "unit": 4,
+    "unit_title": "물가",
+    "topic": "디플레이션은 왜 더 무서운가",
+    "completed": false,
+    "date": null,
+    "briefing_url": null
+  },
+  {
+    "unit": 4,
+    "unit_title": "물가",
+    "topic": "소비자물가지수(CPI)",
+    "completed": false,
+    "date": null,
+    "briefing_url": null
+  },
+  {
+    "unit": 4,
+    "unit_title": "물가",
+    "topic": "명목과 실질의 차이",
+    "completed": false,
+    "date": null,
+    "briefing_url": null
+  },
+  {
+    "unit": 4,
+    "unit_title": "물가",
+    "topic": "물가와 금리의 관계",
+    "completed": false,
+    "date": null,
+    "briefing_url": null
+  },
+  {
+    "unit": 5,
+    "unit_title": "국가 경제 읽기",
+    "topic": "GDP란",
+    "completed": false,
+    "date": null,
+    "briefing_url": null
+  },
+  {
+    "unit": 5,
+    "unit_title": "국가 경제 읽기",
+    "topic": "경제성장률",
+    "completed": false,
+    "date": null,
+    "briefing_url": null
+  },
+  {
+    "unit": 5,
+    "unit_title": "국가 경제 읽기",
+    "topic": "실업률과 고용지표",
+    "completed": false,
+    "date": null,
+    "briefing_url": null
+  },
+  {
+    "unit": 5,
+    "unit_title": "국가 경제 읽기",
+    "topic": "경기순환 (호황과 불황)",
+    "completed": false,
+    "date": null,
+    "briefing_url": null
+  },
+  {
+    "unit": 5,
+    "unit_title": "국가 경제 읽기",
+    "topic": "재정정책 (정부의 돈 쓰기)",
+    "completed": false,
+    "date": null,
+    "briefing_url": null
+  },
+  {
+    "unit": 6,
+    "unit_title": "국제경제",
+    "topic": "환율은 어떻게 움직이나",
+    "completed": false,
+    "date": null,
+    "briefing_url": null
+  },
+  {
+    "unit": 6,
+    "unit_title": "국제경제",
+    "topic": "무역수지",
+    "completed": false,
+    "date": null,
+    "briefing_url": null
+  },
+  {
+    "unit": 6,
+    "unit_title": "국제경제",
+    "topic": "관세와 무역전쟁",
+    "completed": false,
+    "date": null,
+    "briefing_url": null
+  },
+  {
+    "unit": 6,
+    "unit_title": "국제경제",
+    "topic": "자본의 국경 이동",
+    "completed": false,
+    "date": null,
+    "briefing_url": null
+  },
+  {
+    "unit": 6,
+    "unit_title": "국제경제",
+    "topic": "달러는 왜 기축통화인가",
+    "completed": false,
+    "date": null,
+    "briefing_url": null
+  },
+  {
+    "unit": 7,
+    "unit_title": "금융시장 기초",
+    "topic": "주식이란 무엇인가",
+    "completed": false,
+    "date": null,
+    "briefing_url": null
+  },
+  {
+    "unit": 7,
+    "unit_title": "금융시장 기초",
+    "topic": "채권이란 무엇인가",
+    "completed": false,
+    "date": null,
+    "briefing_url": null
+  },
+  {
+    "unit": 7,
+    "unit_title": "금융시장 기초",
+    "topic": "금리가 오르면 채권가격이 떨어지는 이유",
+    "completed": false,
+    "date": null,
+    "briefing_url": null
+  },
+  {
+    "unit": 7,
+    "unit_title": "금융시장 기초",
+    "topic": "주가지수 (코스피, S&P500)",
+    "completed": false,
+    "date": null,
+    "briefing_url": null
+  },
+  {
+    "unit": 7,
+    "unit_title": "금융시장 기초",
+    "topic": "ETF와 펀드",
+    "completed": false,
+    "date": null,
+    "briefing_url": null
+  },
+  {
+    "unit": 8,
+    "unit_title": "투자의 원리",
+    "topic": "리스크와 수익의 관계",
+    "completed": false,
+    "date": null,
+    "briefing_url": null
+  },
+  {
+    "unit": 8,
+    "unit_title": "투자의 원리",
+    "topic": "분산투자",
+    "completed": false,
+    "date": null,
+    "briefing_url": null
+  },
+  {
+    "unit": 8,
+    "unit_title": "투자의 원리",
+    "topic": "복리의 힘",
+    "completed": false,
+    "date": null,
+    "briefing_url": null
+  },
+  {
+    "unit": 8,
+    "unit_title": "투자의 원리",
+    "topic": "인플레이션과 실질수익률",
+    "completed": false,
+    "date": null,
+    "briefing_url": null
+  },
+  {
+    "unit": 8,
+    "unit_title": "투자의 원리",
+    "topic": "자산배분과 장기투자",
+    "completed": false,
+    "date": null,
+    "briefing_url": null
+  }
+]

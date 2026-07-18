@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#2F6F5E">
+<title>용어사전 — 경제 브리핑</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📈</text></svg>">
+<link rel="stylesheet" href="../assets/style.css">
+<style>:root { --accent: #2F6F5E; }</style>
+</head>
+<body>
+<main>
+
+<header class='brief-head'><h1>용어사전</h1>
+<p class="muted">지금까지 배운 용어 1개</p></header>
+<input type="search" id="q" placeholder="용어 검색..." class="search">
+<div id="terms">
+<article class="term-card gl-item" data-term="기준금리 (Base Interest Rate)">
+  <h3>기준금리 (Base Interest Rate) <span class="date-small">2026-07-17</span></h3>
+  <p><strong>정의</strong> 한 나라의 중앙은행(한국의 경우 한국은행)이 경제 상황을 고려하여 결정하는 지표 금리로, 시중 모든 금리의 기준점이 됩니다.</p>
+  <p><strong>비유</strong> 실험 장비로 유입되는 메인 유량 제어 밸브와 같습니다. 이 밸브를 조여서 압력(금리)을 높이면 전체 시스템에 흐르는 유체(돈)의 양이 줄어들고, 밸브를 열면 흐름이 빨라집니다.</p>
+</article></div>
+<script>
+document.getElementById('q').addEventListener('input', function() {
+  var q = this.value.trim().toLowerCase();
+  document.querySelectorAll('.gl-item').forEach(function(el) {
+    el.style.display = el.textContent.toLowerCase().includes(q) ? '' : 'none';
+  });
+});
+</script>
+</main>
+<nav class="bottom-nav"><a href="../index.html" class="">오늘</a><a href="../archive/index.html" class="">아카이브</a><a href="../glossary/index.html" class="active">용어사전</a><a href="../curriculum/index.html" class="">진도</a></nav>
+</body>
+</html>
