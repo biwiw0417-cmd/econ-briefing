@@ -263,6 +263,11 @@ def main() -> None:
     date_str = today.strftime("%Y-%m-%d")
     is_weekend = today.weekday() >= 5
 
+    # 이미 오늘 브리핑이 있으면 건너뜀 (예비 실행이 중복 생성하지 않게)
+    if (DATA / "briefings" / f"{date_str}.json").exists():
+        print(f"[generate] {date_str} 브리핑이 이미 존재합니다. 건너뜀.")
+        return
+
     curriculum = load_json(DATA / "curriculum.json")
     terms = load_json(DATA / "terms.json")
 

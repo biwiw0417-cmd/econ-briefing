@@ -2,7 +2,8 @@ name: daily-briefing
 
 on:
   schedule:
-    - cron: '0 22 * * *'   # UTC 22:00 = KST 07:00
+    - cron: '37 21 * * *'  # UTC 21:37 = KST 06:37 (정각을 피해 혼잡 지연 최소화)
+    - cron: '7 23 * * *'   # UTC 23:07 = KST 08:07 (첫 실행이 밀렸을 때 예비)
   workflow_dispatch:        # 수동 실행 버튼
 
 permissions:
