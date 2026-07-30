@@ -53,6 +53,7 @@ def fetch_prices(assets: list) -> list:
             month = float(close.iloc[0])
             rows.append({
                 "name": a["name"], "ticker": t, "target_pct": a["target_pct"],
+                "qty": a.get("qty"),
                 "price": round(price, 2),
                 "week_pct": round((price / week - 1) * 100, 2),
                 "month_pct": round((price / month - 1) * 100, 2),
@@ -84,13 +85,33 @@ def fetch_news(assets: list) -> list:
     return items
 
 
+def add_weights(prices: list, cash_krw: float) -> None:
+    """보유 수량이 있으면 원화 환산 실제 비중과 목표 대비 드리프트를 계산."""
+    if not any(p.get("qty") for p in prices):
+        return
+    try:
+        fx = float(yf.Ticker("KRW=X").history(period="5d")["Close"].dropna().iloc[-1])
+    except Exception:
+        fx = 1450.0  # ponytail: 환율 조회 실패 시 대략값, 드리프트가 ±1%p쯤 틀릴 수 있음
+    total = cash_krw or 0
+    for p in prices:
+        if p.get("qty"):
+            p["value_krw"] = round(p["qty"] * p["price"] * (fx if p["currency"] == "USD" else 1))
+            total += p["value_krw"]
+    for p in prices:
+        if p.get("value_krw"):
+            p["current_pct"] = round(p["value_krw"] / total * 100, 1)
+
+
 def build_prompt(cfg, prices, news, date_str) -> str:
     lines = [f"오늘 날짜: {date_str} (KST)", "",
              f"투자 원칙: {cfg['rebalance_policy']}, 투자 기간 {cfg['horizon_years']}년", "",
              "목표 배분과 최근 시세 (1주/1달 등락률 %):"]
     for p in prices:
+        drift = (f", 실제 비중 {p['current_pct']}% (목표 대비 {p['current_pct'] - p['target_pct']:+.1f}%p)"
+                 if p.get("current_pct") is not None else "")
         lines.append(f"- {p['name']} ({p['ticker']}): 목표 {p['target_pct']}%, "
-                     f"현재가 {p['price']} {p['currency']}, 1주 {p['week_pct']:+.1f}%, 1달 {p['month_pct']:+.1f}%")
+                     f"현재가 {p['price']} {p['currency']}, 1주 {p['week_pct']:+.1f}%, 1달 {p['month_pct']:+.1f}%{drift}")
     no_ticker = [a["name"] for a in cfg["target_allocation"] if not a.get("yahoo")]
     if no_ticker:
         lines.append(f"- (티커 미정으로 시세 미조회: {', '.join(no_ticker)})")
@@ -111,6 +132,7 @@ def main() -> None:
 
     cfg = load_json(DATA / "portfolio.json")
     prices = fetch_prices(cfg["target_allocation"])
+    add_weights(prices, cfg.get("cash_krw", 0))
     news = fetch_news(cfg["target_allocation"])
     print(f"[portfolio] 시세 {len(prices)}건, 뉴스 {len(news)}건 수집")
 

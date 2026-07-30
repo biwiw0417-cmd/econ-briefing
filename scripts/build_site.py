@@ -279,12 +279,17 @@ DISCLAIMER = ('<p class="disclaimer">⚠️ 이 코너는 투자 자문이 아�
 
 def render_portfolio(report: dict, root: str) -> str:
     c = report["comment"]
-    rows = "".join(f"""
-<tr><td>{esc(p["name"])}</td><td>{p["target_pct"]}%</td>
+    has_cur = any(p.get("current_pct") is not None for p in report["prices"])
+    cur_th = "<th>실제</th>" if has_cur else ""
+    rows = ""
+    for p in report["prices"]:
+        cur = p.get("current_pct")
+        cur_td = f"<td>{cur}%</td>" if has_cur and cur is not None else ("<td>–</td>" if has_cur else "")
+        rows += f"""
+<tr><td>{esc(p["name"])}</td><td>{p["target_pct"]}%</td>{cur_td}
 <td>{p["price"]:,} <span class="date-small">{p["currency"]}</span></td>
 <td class="{'up' if p['week_pct'] >= 0 else 'down'}">{p["week_pct"]:+.1f}%</td>
 <td class="{'up' if p['month_pct'] >= 0 else 'down'}">{p["month_pct"]:+.1f}%</td></tr>"""
-                   for p in report["prices"])
     notes = "".join(f"""
 <article class="term-card"><h3>{esc(n["name"])}</h3><p>{esc(n["note"])}</p></article>"""
                     for n in c.get("asset_notes", []))
@@ -297,7 +302,7 @@ def render_portfolio(report: dict, root: str) -> str:
 {DISCLAIMER}
 <section><h2 class="label">시세 요약</h2>
 <div class="table-wrap"><table>
-<thead><tr><th>자산</th><th>목표</th><th>가격</th><th>1주</th><th>1달</th></tr></thead>
+<thead><tr><th>자산</th><th>목표</th>{cur_th}<th>가격</th><th>1주</th><th>1달</th></tr></thead>
 <tbody>{rows}</tbody></table></div></section>
 <section><h2 class="label">이번 주 흐름</h2><p>{esc(c.get("overview", ""))}</p></section>
 <section><h2 class="label">자산별 코멘트</h2>{notes}</section>
