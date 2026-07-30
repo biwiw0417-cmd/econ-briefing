@@ -1,0 +1,17 @@
+{
+  "target_allocation": [
+    {"name": "VTI (미국 전체시장)", "yahoo": "VTI", "target_pct": 30, "news_query": "US stock market", "lang": "en", "held": false},
+    {"name": "KODEX 200", "yahoo": "069500.KS", "target_pct": 15, "news_query": "코스피", "lang": "ko", "held": false},
+    {"name": "SCHG (미국 대형 성장주)", "yahoo": "SCHG", "target_pct": 10, "news_query": "US growth stocks", "lang": "en", "held": true},
+    {"name": "해외 분산", "yahoo": null, "target_pct": 10, "held": false},
+    {"name": "중기 채권", "yahoo": null, "target_pct": 10, "held": false, "note": "보유 상품 티커 미정"},
+    {"name": "삼성전자", "yahoo": "005930.KS", "target_pct": 5, "news_query": "삼성전자", "lang": "ko", "held": false},
+    {"name": "엔비디아", "yahoo": "NVDA", "target_pct": 5, "news_query": "Nvidia stock", "lang": "en", "held": false},
+    {"name": "금", "yahoo": null, "target_pct": 5, "held": false, "note": "보유 상품 티커 미정"},
+    {"name": "REITs", "yahoo": null, "target_pct": 5, "held": false, "note": "보유 상품 티커 미정"},
+    {"name": "현금", "yahoo": null, "target_pct": 5, "held": false},
+    {"name": "ZROZ (미국 초장기채)", "yahoo": "ZROZ", "target_pct": 0, "news_query": "US treasury bonds", "lang": "en", "held": true, "note": "위성자산, 목표비중 별도 관리"}
+  ],
+  "rebalance_policy": "매도 없이 신규 납입금으로 반기(6개월) 조정",
+  "horizon_years": 20
+}

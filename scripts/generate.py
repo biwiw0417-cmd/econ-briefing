@@ -124,7 +124,7 @@ def fetch_headlines() -> list:
 
 # ---------------------------------------------------------------- LLM 호출
 
-def call_llm(user_prompt: str) -> str:
+def call_llm(user_prompt: str, system_prompt: str = SYSTEM_PROMPT) -> str:
     """Gemini API 호출 (JSON 모드). 429/일시 오류는 재시도."""
     api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key:
@@ -132,7 +132,7 @@ def call_llm(user_prompt: str) -> str:
         sys.exit(1)
 
     body = json.dumps({
-        "systemInstruction": {"parts": [{"text": SYSTEM_PROMPT}]},
+        "systemInstruction": {"parts": [{"text": system_prompt}]},
         "contents": [{"role": "user", "parts": [{"text": user_prompt}]}],
         "generationConfig": {
             "responseMimeType": "application/json",

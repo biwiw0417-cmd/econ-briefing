@@ -46,6 +46,7 @@ def nav(root: str, active: str) -> str:
         ("archive", f"{root}/archive/index.html", "아카이브"),
         ("glossary", f"{root}/glossary/index.html", "용어사전"),
         ("curriculum", f"{root}/curriculum/index.html", "진도"),
+        ("portfolio", f"{root}/portfolio/index.html", "포트폴리오"),
     ]
     links = "".join(
         f'<a href="{href}" class="{"active" if key == active else ""}">{label}</a>'
@@ -272,6 +273,76 @@ def build_curriculum(curriculum: list) -> None:
                    encoding="utf-8")
 
 
+DISCLAIMER = ('<p class="disclaimer">⚠️ 이 코너는 투자 자문이 아닌 개인 학습·모니터링 '
+              '도구입니다. 참고용이며 모든 투자 판단과 책임은 본인에게 있습니다.</p>')
+
+
+def render_portfolio(report: dict, root: str) -> str:
+    c = report["comment"]
+    rows = "".join(f"""
+<tr><td>{esc(p["name"])}</td><td>{p["target_pct"]}%</td>
+<td>{p["price"]:,} <span class="date-small">{p["currency"]}</span></td>
+<td class="{'up' if p['week_pct'] >= 0 else 'down'}">{p["week_pct"]:+.1f}%</td>
+<td class="{'up' if p['month_pct'] >= 0 else 'down'}">{p["month_pct"]:+.1f}%</td></tr>"""
+                   for p in report["prices"])
+    notes = "".join(f"""
+<article class="term-card"><h3>{esc(n["name"])}</h3><p>{esc(n["note"])}</p></article>"""
+                    for n in c.get("asset_notes", []))
+    return f"""
+<header class="brief-head">
+  <p class="date">{esc(date_kr(report["date"]))} 주간</p>
+  <h1>포트폴리오</h1>
+  <p class="muted">{esc(c.get("headline", ""))}</p>
+</header>
+{DISCLAIMER}
+<section><h2 class="label">시세 요약</h2>
+<div class="table-wrap"><table>
+<thead><tr><th>자산</th><th>목표</th><th>가격</th><th>1주</th><th>1달</th></tr></thead>
+<tbody>{rows}</tbody></table></div></section>
+<section><h2 class="label">이번 주 흐름</h2><p>{esc(c.get("overview", ""))}</p></section>
+<section><h2 class="label">자산별 코멘트</h2>{notes}</section>
+<section><h2 class="label">리밸런싱 리마인더</h2>
+<article class="review"><p>{esc(c.get("reminder", ""))}</p></article></section>
+<p class="muted" style="margin-top:24px"><a href="{root}/portfolio/archive/index.html">지난 코멘트 보기 →</a></p>"""
+
+
+def build_portfolio_pages() -> None:
+    out_dir = DOCS / "portfolio"
+    (out_dir / "archive").mkdir(parents=True, exist_ok=True)
+    port_dir = DATA / "portfolio"
+    reports = [json.loads(p.read_text(encoding="utf-8"))
+               for p in sorted(port_dir.glob("*.json"), reverse=True)] if port_dir.exists() else []
+
+    if not reports:
+        body = ("<header class='brief-head'><h1>포트폴리오</h1></header>"
+                f"{DISCLAIMER}<p class='muted'>아직 생성된 코멘트가 없습니다. "
+                "매주 월요일 아침에 자동 생성됩니다.</p>")
+        out = page("포트폴리오 — 경제 브리핑", body, "..", "portfolio")
+        (out_dir / "index.html").write_text(out, encoding="utf-8")
+        (out_dir / "archive" / "index.html").write_text(out, encoding="utf-8")
+        return
+
+    (out_dir / "index.html").write_text(
+        page("포트폴리오 — 경제 브리핑", render_portfolio(reports[0], ".."),
+             "..", "portfolio"), encoding="utf-8")
+
+    for r in reports:
+        d = out_dir / "archive" / r["date"]
+        d.mkdir(parents=True, exist_ok=True)
+        (d / "index.html").write_text(
+            page(f"포트폴리오 {r['date']}", render_portfolio(r, "../../.."),
+                 "../../..", "portfolio"), encoding="utf-8")
+
+    items = "".join(f"""
+<li><a href="{r["date"]}/index.html">
+  <span class="date-small">{r["date"]}</span>
+  <span>{esc(r["comment"].get("headline", ""))}</span>
+</a></li>""" for r in reports)
+    (out_dir / "archive" / "index.html").write_text(
+        page("포트폴리오 아카이브", "<header class='brief-head'><h1>포트폴리오 아카이브</h1></header>"
+             f"<ul class='list'>{items}</ul>", "../..", "portfolio"), encoding="utf-8")
+
+
 CSS = """
 :root {
   --bg: #ffffff; --fg: #1c1c1e; --muted: #8e8e93;
@@ -360,6 +431,18 @@ details[open] summary { margin-bottom: 6px; }
 }
 .progress .bar { height: 100%; background: var(--accent); border-radius: 99px; }
 
+.disclaimer {
+  font-size: 14px; color: var(--muted); background: var(--card);
+  border-radius: 10px; padding: 10px 14px; margin: 12px 0;
+}
+.table-wrap { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; font-size: 15px; }
+th, td { text-align: right; padding: 8px 6px; border-bottom: 1px solid var(--border); white-space: nowrap; }
+th:first-child, td:first-child { text-align: left; }
+th { color: var(--muted); font-weight: 600; font-size: 13px; }
+.up { color: #C0392B; }
+.down { color: #2E62A8; }
+
 .bottom-nav {
   position: fixed; bottom: 0; left: 0; right: 0;
   display: flex; background: var(--bg);
@@ -392,6 +475,7 @@ def main() -> None:
     build_archive_index(briefings)
     build_glossary(terms)
     build_curriculum(curriculum)
+    build_portfolio_pages()
     print(f"[site] 빌드 완료: 브리핑 {len(briefings)}건, 용어 {len(terms)}개")
 
 
