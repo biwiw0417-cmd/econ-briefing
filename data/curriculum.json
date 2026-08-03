@@ -91,9 +91,9 @@
     "unit": 3,
     "unit_title": "화폐와 금융 시스템",
     "topic": "은행과 신용창조",
-    "completed": false,
-    "date": null,
-    "briefing_url": null
+    "completed": true,
+    "date": "2026-08-03",
+    "briefing_url": "/archive/2026-08-03/"
   },
   {
     "unit": 3,
