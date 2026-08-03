@@ -1,0 +1,118 @@
+{
+  "date": "2026-08-03",
+  "prices": [
+    {
+      "name": "SCHG (미국 성장주)",
+      "ticker": "SCHG",
+      "target_pct": 15,
+      "qty": null,
+      "price": 34.17,
+      "week_pct": 2.12,
+      "month_pct": 0.18,
+      "currency": "USD"
+    },
+    {
+      "name": "삼성전자",
+      "ticker": "005930.KS",
+      "target_pct": 15,
+      "qty": null,
+      "price": 239500.0,
+      "week_pct": -5.71,
+      "month_pct": -22.62,
+      "currency": "KRW"
+    },
+    {
+      "name": "엔비디아",
+      "ticker": "NVDA",
+      "target_pct": 10,
+      "qty": null,
+      "price": 200.75,
+      "week_pct": -2.94,
+      "month_pct": 1.6,
+      "currency": "USD"
+    },
+    {
+      "name": "VTI (미국 전체시장)",
+      "ticker": "VTI",
+      "target_pct": 10,
+      "qty": null,
+      "price": 368.21,
+      "week_pct": 0.93,
+      "month_pct": -0.29,
+      "currency": "USD"
+    },
+    {
+      "name": "KODEX 200",
+      "ticker": "069500.KS",
+      "target_pct": 10,
+      "qty": null,
+      "price": 99105.0,
+      "week_pct": -7.82,
+      "month_pct": -24.2,
+      "currency": "KRW"
+    },
+    {
+      "name": "ZROZ (미국 장기채)",
+      "ticker": "ZROZ",
+      "target_pct": 10,
+      "qty": null,
+      "price": 58.1,
+      "week_pct": -2.81,
+      "month_pct": -7.2,
+      "currency": "USD"
+    },
+    {
+      "name": "KODEX 국고채30년",
+      "ticker": "439870.KS",
+      "target_pct": 10,
+      "qty": null,
+      "price": 87750.0,
+      "week_pct": 0.68,
+      "month_pct": -2.61,
+      "currency": "KRW"
+    },
+    {
+      "name": "TIGER 골드선물(H)",
+      "ticker": "319640.KS",
+      "target_pct": 5,
+      "qty": null,
+      "price": 24000.0,
+      "week_pct": -0.89,
+      "month_pct": -3.07,
+      "currency": "KRW"
+    },
+    {
+      "name": "TIGER 리츠부동산인프라",
+      "ticker": "329200.KS",
+      "target_pct": 5,
+      "qty": null,
+      "price": 3995.0,
+      "week_pct": -2.47,
+      "month_pct": 0.58,
+      "currency": "KRW"
+    }
+  ],
+  "comment": {
+    "headline": "국내 증시의 단기 변동성이 커졌지만, 20년 장기 투자 계획 속 일상적인 과정입니다.",
+    "overview": "이번 주는 삼성전자와 KODEX 200을 중심으로 국내 자산의 가격 조정이 크게 일어난 반면, 미국 성장주(SCHG) 등 일부 해외 자산은 상대적으로 잘 버텨주었습니다. 단기적인 시장 악재나 수급 불균형으로 인한 하락은 장기 투자 논지를 훼손하는 구조적 변화라기보다 일시적인 노이즈일 가능성이 큽니다. 매도 없이 신규 납입금으로 조정한다는 원칙을 떠올리며 차분하게 시장을 바라보기에 좋은 시점입니다.",
+    "asset_notes": [
+      {
+        "name": "삼성전자",
+        "note": "최근 한 달간 하락 폭이 커졌으나, 이는 반도체 수급과 시장 심리에 따른 단기 노이즈로 해석하는 것이 적절합니다. 장기 경쟁력에 구조적 균열이 발생한 것인지 지속 점검하되, 단기 시세에 흔들리지 않는 자세가 필요합니다."
+      },
+      {
+        "name": "KODEX 200",
+        "note": "국내 시장 전반의 투심 약화로 큰 폭의 조정을 받았습니다. 한국 대형주 전반의 단기 지수 흔들림은 장기 투자 과정에서 흔히 마주하는 구간입니다."
+      },
+      {
+        "name": "SCHG (미국 성장주)",
+        "note": "국내 시장의 변동성 속에서도 상승세를 보이며 전체 포트폴리오의 하방을 지탱해 주었습니다. 미국 대형 성장주들의 우수한 이익 창출력이 장기 관점에서 잘 발휘되고 있습니다."
+      },
+      {
+        "name": "ZROZ (미국 장기채)",
+        "note": "금리 변동 여파로 최근 약세를 보이고 있으나, 채권은 주식 자산의 변동성을 완화해 주는 방어적 역할을 수행하므로 장기 배분 관점을 유지하는 것이 좋습니다."
+      }
+    ],
+    "reminder": "매도 없이 신규 납입금으로만 비중을 맞추는 반기 리밸런싱 원칙을 잊지 마세요. 이번 주처럼 특정 자산의 가격이 낮아진 시기는 차후 리밸런싱 때 신규 자금을 더 효율적으로 배분할 기회가 됩니다."
+  }
+}
