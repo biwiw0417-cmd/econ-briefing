@@ -115,9 +115,9 @@
     "unit": 3,
     "unit_title": "화폐와 금융 시스템",
     "topic": "통화정책 (금리를 올리고 내리는 이유)",
-    "completed": false,
-    "date": null,
-    "briefing_url": null
+    "completed": true,
+    "date": "2026-08-06",
+    "briefing_url": "/archive/2026-08-06/"
   },
   {
     "unit": 4,
