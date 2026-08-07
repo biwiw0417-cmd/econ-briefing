@@ -123,9 +123,9 @@
     "unit": 4,
     "unit_title": "물가",
     "topic": "인플레이션의 원인",
-    "completed": false,
-    "date": null,
-    "briefing_url": null
+    "completed": true,
+    "date": "2026-08-07",
+    "briefing_url": "/archive/2026-08-07/"
   },
   {
     "unit": 4,
