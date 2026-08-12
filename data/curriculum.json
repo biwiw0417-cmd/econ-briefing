@@ -155,9 +155,9 @@
     "unit": 4,
     "unit_title": "물가",
     "topic": "물가와 금리의 관계",
-    "completed": false,
-    "date": null,
-    "briefing_url": null
+    "completed": true,
+    "date": "2026-08-13",
+    "briefing_url": "/archive/2026-08-13/"
   },
   {
     "unit": 5,
