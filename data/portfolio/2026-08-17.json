@@ -1,0 +1,118 @@
+{
+  "date": "2026-08-17",
+  "prices": [
+    {
+      "name": "SCHG (미국 성장주)",
+      "ticker": "SCHG",
+      "target_pct": 15,
+      "qty": null,
+      "price": 35.79,
+      "week_pct": 0.03,
+      "month_pct": 2.55,
+      "currency": "USD"
+    },
+    {
+      "name": "삼성전자",
+      "ticker": "005930.KS",
+      "target_pct": 15,
+      "qty": null,
+      "price": 274500.0,
+      "week_pct": 18.83,
+      "month_pct": 4.37,
+      "currency": "KRW"
+    },
+    {
+      "name": "엔비디아",
+      "ticker": "NVDA",
+      "target_pct": 10,
+      "qty": null,
+      "price": 225.16,
+      "week_pct": 0.54,
+      "month_pct": 5.96,
+      "currency": "USD"
+    },
+    {
+      "name": "VTI (미국 전체시장)",
+      "ticker": "VTI",
+      "target_pct": 10,
+      "qty": null,
+      "price": 383.85,
+      "week_pct": 0.54,
+      "month_pct": 3.07,
+      "currency": "USD"
+    },
+    {
+      "name": "KODEX 200",
+      "ticker": "069500.KS",
+      "target_pct": 10,
+      "qty": null,
+      "price": 110060.0,
+      "week_pct": 12.2,
+      "month_pct": 0.52,
+      "currency": "KRW"
+    },
+    {
+      "name": "ZROZ (미국 장기채)",
+      "ticker": "ZROZ",
+      "target_pct": 10,
+      "qty": null,
+      "price": 57.96,
+      "week_pct": -1.8,
+      "month_pct": -4.48,
+      "currency": "USD"
+    },
+    {
+      "name": "KODEX 국고채30년",
+      "ticker": "439870.KS",
+      "target_pct": 10,
+      "qty": null,
+      "price": 85870.0,
+      "week_pct": -2.49,
+      "month_pct": -2.69,
+      "currency": "KRW"
+    },
+    {
+      "name": "TIGER 골드선물(H)",
+      "ticker": "319640.KS",
+      "target_pct": 5,
+      "qty": null,
+      "price": 25565.0,
+      "week_pct": 1.05,
+      "month_pct": 7.12,
+      "currency": "KRW"
+    },
+    {
+      "name": "TIGER 리츠부동산인프라",
+      "ticker": "329200.KS",
+      "target_pct": 5,
+      "qty": null,
+      "price": 4135.0,
+      "week_pct": 1.97,
+      "month_pct": 3.84,
+      "currency": "KRW"
+    }
+  ],
+  "comment": {
+    "headline": "이번 주는 국내 증시의 급등과 채권 금리 변동이 있었지만, 20년 마라톤의 관점에서는 잔잔한 파도일 뿐입니다.",
+    "overview": "이번 주 국내 증시와 삼성전자가 큰 폭의 상승세를 보이고 미국 및 국내 채권 금리는 소폭 흔들렸지만, 전반적인 포트폴리오는 견조한 흐름을 유지하고 있습니다. 단기적인 주가 급등락이나 언론의 자극적인 헤드라인은 20년이라는 긴 여정에서 거쳐 가는 노이즈에 불과합니다. 이공계 실험실에서 장기 프로젝트를 하듯, 시장의 일희일비에 흔들리지 않고 우리의 큰 그림을 묵묵히 지켜나갈 때입니다.",
+    "asset_notes": [
+      {
+        "name": "삼성전자",
+        "note": "한 주 동안 큰 폭의 상승과 함께 풍부한 현금 곳간 관련 긍정적 소식이 전해졌습니다. 이는 단기 급등에 따른 노이즈라기보다는 기업의 기초체력(Fundament)이 탄탄해지고 있음을 보여주는 구조적 신호로 해석할 수 있습니다."
+      },
+      {
+        "name": "KODEX 200",
+        "note": "지수 회복과 함께 공매도 잔고 증가 등 시장 내 우려의 목소리가 나오고 있습니다. 하지만 이는 시장이 회복되는 과정에서 자연스럽게 나타나는 단기적 심리 요인일 뿐, 한국 경제의 장기 성장 가치를 훼손하는 구조적 변화는 아닙니다."
+      },
+      {
+        "name": "ZROZ (미국 장기채)",
+        "note": "장기 국채 금리 변동으로 가격이 소폭 하락했습니다. 채권 가격의 단기 등락은 거시경제 사이클에 따른 일시적 현상이므로, 포트폴리오의 안전판 역할을 하는 장기적 관점에서 차분하게 지켜보면 됩니다."
+      },
+      {
+        "name": "TIGER 리츠부동산인프라",
+        "note": "일부 리츠 관련 쇼크 뉴스가 전해지며 단기적인 불안감이 반영되었습니다. 개별 이슈는 꼼꼼히 모니터링하되, 부동산과 인프라 자산이 갖춘 장기적인 현금창출 능력이라는 본질은 변하지 않았음을 기억하세요."
+      }
+    ],
+    "reminder": "우리의 원칙은 매도 없이 오직 신규 납입금으로만 반기(6개월)마다 부족한 비중을 채워나가는 것입니다. 이번 주 시장이 얼마나 올랐든 내렸든 기존 자산은 그대로 두고, 다가올 리밸런싱 시점에 맞춰 계획대로 나아갑시다."
+  }
+}
