@@ -1,0 +1,118 @@
+{
+  "date": "2026-08-24",
+  "prices": [
+    {
+      "name": "SCHG (미국 성장주)",
+      "ticker": "SCHG",
+      "target_pct": 15,
+      "qty": null,
+      "price": 35.32,
+      "week_pct": -1.31,
+      "month_pct": 3.73,
+      "currency": "USD"
+    },
+    {
+      "name": "삼성전자",
+      "ticker": "005930.KS",
+      "target_pct": 15,
+      "qty": null,
+      "price": 281500.0,
+      "week_pct": 5.04,
+      "month_pct": 8.69,
+      "currency": "KRW"
+    },
+    {
+      "name": "엔비디아",
+      "ticker": "NVDA",
+      "target_pct": 10,
+      "qty": null,
+      "price": 214.72,
+      "week_pct": -4.64,
+      "month_pct": 1.25,
+      "currency": "USD"
+    },
+    {
+      "name": "VTI (미국 전체시장)",
+      "ticker": "VTI",
+      "target_pct": 10,
+      "qty": null,
+      "price": 378.24,
+      "week_pct": -1.46,
+      "month_pct": 2.54,
+      "currency": "USD"
+    },
+    {
+      "name": "KODEX 200",
+      "ticker": "069500.KS",
+      "target_pct": 10,
+      "qty": null,
+      "price": 109980.0,
+      "week_pct": 2.53,
+      "month_pct": 1.91,
+      "currency": "KRW"
+    },
+    {
+      "name": "ZROZ (미국 장기채)",
+      "ticker": "ZROZ",
+      "target_pct": 10,
+      "qty": null,
+      "price": 57.97,
+      "week_pct": 0.02,
+      "month_pct": -3.22,
+      "currency": "USD"
+    },
+    {
+      "name": "KODEX 국고채30년",
+      "ticker": "439870.KS",
+      "target_pct": 10,
+      "qty": null,
+      "price": 85435.0,
+      "week_pct": -0.02,
+      "month_pct": -1.89,
+      "currency": "KRW"
+    },
+    {
+      "name": "TIGER 골드선물(H)",
+      "ticker": "319640.KS",
+      "target_pct": 5,
+      "qty": null,
+      "price": 26855.0,
+      "week_pct": 4.07,
+      "month_pct": 11.48,
+      "currency": "KRW"
+    },
+    {
+      "name": "TIGER 리츠부동산인프라",
+      "ticker": "329200.KS",
+      "target_pct": 5,
+      "qty": null,
+      "price": 4105.0,
+      "week_pct": 0.74,
+      "month_pct": 3.22,
+      "currency": "KRW"
+    }
+  ],
+  "comment": {
+    "headline": "미국 기술주의 단기 숨고르기와 국내 대형주·금 자산의 견조한 흐름이 대비된 한 주였습니다.",
+    "overview": "이번 주는 미국 빅테크와 주요 지수(SCHG, NVDA, VTI)가 실적 발표와 단기 가격 조정을 겪으며 소폭 조정을 받았습니다. 반면 국내 시장(삼성전자, KODEX 200)은 주주환원 확대 기대감으로 상승세를 이어갔고, 안전자산인 금(TIGER 골드선물) 역시 강세를 보였습니다. 장기 국채는 글로벌 금리 변동성으로 인해 횡보세를 유지했으나, 전체 포트폴리오는 자산 배분 효과 덕분에 균형 잡힌 안정성을 유지하고 있습니다.",
+    "asset_notes": [
+      {
+        "name": "삼성전자",
+        "note": "사상 최대 규모의 주주환원 추진 소식과 함께 주간 +5.0% 상승했습니다. 기업의 주주가치 제고 노력은 장기 투자 관점에서 긍정적인 구조적 변화로 볼 수 있습니다."
+      },
+      {
+        "name": "엔비디아 (NVDA)",
+        "note": "실적 발표를 앞두고 제품 가격 인상 전망 등 여러 해석이 엇갈리며 주간 -4.6% 조정을 받았습니다. 이는 단기 실적 기대감에 따른 전형적인 단기 노이즈이며, 20년 AI 인프라 성장이라는 장기 논지에는 훼손이 없습니다."
+      },
+      {
+        "name": "TIGER 골드선물(H)",
+        "note": "글로벌 매크로 불확실성 속에서 주간 +4.1%, 월간 +11.5% 급등했습니다. 주식 및 채권의 변동성을 상쇄해 주는 안전자산 및 포트폴리오 완충재로서의 역할을 충실히 수행하고 있습니다."
+      },
+      {
+        "name": "ZROZ (미국 장기채)",
+        "note": "글로벌 장기 국채 금리 상승 우려 속에서도 주간 가격 변동은 보합세를 유지했습니다. 단기적인 금리 등락 뉴스는 긴 시계열에서 주기적으로 반복되는 노이즈이므로 차분히 지켜보시면 됩니다."
+      }
+    ],
+    "reminder": "단기적인 개별 자산의 등락에 반응하여 매매할 필요는 전혀 없습니다. 20년 원칙에 따라 다음 반기 리밸런싱 시점에 목표 비중보다 낮아진 자산 위주로 신규 납입금을 채워 넣으시면 됩니다."
+  }
+}
