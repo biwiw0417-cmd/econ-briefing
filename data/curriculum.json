@@ -211,9 +211,9 @@
     "unit": 6,
     "unit_title": "국제경제",
     "topic": "무역수지",
-    "completed": false,
-    "date": null,
-    "briefing_url": null
+    "completed": true,
+    "date": "2026-08-24",
+    "briefing_url": "/archive/2026-08-24/"
   },
   {
     "unit": 6,
