@@ -267,9 +267,9 @@
     "unit": 7,
     "unit_title": "금융시장 기초",
     "topic": "주가지수 (코스피, S&P500)",
-    "completed": false,
-    "date": null,
-    "briefing_url": null
+    "completed": true,
+    "date": "2026-09-02",
+    "briefing_url": "/archive/2026-09-02/"
   },
   {
     "unit": 7,
