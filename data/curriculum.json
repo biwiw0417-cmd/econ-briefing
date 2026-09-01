@@ -259,9 +259,9 @@
     "unit": 7,
     "unit_title": "금융시장 기초",
     "topic": "금리가 오르면 채권가격이 떨어지는 이유",
-    "completed": false,
-    "date": null,
-    "briefing_url": null
+    "completed": true,
+    "date": "2026-09-01",
+    "briefing_url": "/archive/2026-09-01/"
   },
   {
     "unit": 7,
