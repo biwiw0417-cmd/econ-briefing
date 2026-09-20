@@ -1,0 +1,126 @@
+{
+  "date": "2026-09-21",
+  "prices": [
+    {
+      "name": "SCHG (미국 성장주)",
+      "ticker": "SCHG",
+      "target_pct": 15,
+      "qty": null,
+      "price": 35.43,
+      "week_pct": 0.77,
+      "month_pct": -0.08,
+      "currency": "USD"
+    },
+    {
+      "name": "삼성전자",
+      "ticker": "005930.KS",
+      "target_pct": 15,
+      "qty": null,
+      "price": 261000.0,
+      "week_pct": 0.58,
+      "month_pct": -2.79,
+      "currency": "KRW"
+    },
+    {
+      "name": "엔비디아",
+      "ticker": "NVDA",
+      "target_pct": 10,
+      "qty": null,
+      "price": 222.27,
+      "week_pct": 1.82,
+      "month_pct": 2.28,
+      "currency": "USD"
+    },
+    {
+      "name": "VTI (미국 전체시장)",
+      "ticker": "VTI",
+      "target_pct": 10,
+      "qty": null,
+      "price": 375.43,
+      "week_pct": -0.23,
+      "month_pct": -1.2,
+      "currency": "USD"
+    },
+    {
+      "name": "KODEX 200",
+      "ticker": "069500.KS",
+      "target_pct": 10,
+      "qty": null,
+      "price": 109285.0,
+      "week_pct": -0.2,
+      "month_pct": 0.68,
+      "currency": "KRW"
+    },
+    {
+      "name": "ZROZ (미국 장기채)",
+      "ticker": "ZROZ",
+      "target_pct": 10,
+      "qty": null,
+      "price": 58.43,
+      "week_pct": 1.09,
+      "month_pct": -1.42,
+      "currency": "USD"
+    },
+    {
+      "name": "KODEX 국고채30년",
+      "ticker": "439870.KS",
+      "target_pct": 10,
+      "qty": null,
+      "price": 87460.0,
+      "week_pct": 2.1,
+      "month_pct": 3.07,
+      "currency": "KRW"
+    },
+    {
+      "name": "TIGER 골드선물(H)",
+      "ticker": "319640.KS",
+      "target_pct": 5,
+      "qty": null,
+      "price": 25780.0,
+      "week_pct": 0.78,
+      "month_pct": -0.66,
+      "currency": "KRW"
+    },
+    {
+      "name": "TIGER 리츠부동산인프라",
+      "ticker": "329200.KS",
+      "target_pct": 5,
+      "qty": null,
+      "price": 4075.0,
+      "week_pct": 0.87,
+      "month_pct": -0.16,
+      "currency": "KRW"
+    }
+  ],
+  "comment": {
+    "headline": "미국 성장주와 채권의 견조한 흐름 속에 단기적 시장 노이즈를 이겨내는 주간",
+    "overview": "이번 주는 미국 성장주와 국내외 채권 자산이 소폭 상승하며 포트폴리오의 중심을 잡아주었습니다. 코스피의 극단적 하락 경고나 특정 리츠의 부정적 뉴스 등 시장의 공포를 자극하는 소식이 있었으나, 이는 20년 장기 투자 관점에서는 자산 배분의 필요성을 증명하는 단기 노이즈에 가깝습니다. 전반적으로 각 자산이 서로의 변동성을 보완하며 안정적인 흐름을 유지하고 있는 상태입니다.",
+    "asset_notes": [
+      {
+        "name": "삼성전자",
+        "note": "특별배당 이슈와 노조 개편 소식이 겹치고 있으나, 이는 기업의 장기 펀더멘털을 흔드는 구조적 변화라기보다 단기적인 수급 및 운영상의 노이즈로 판단됩니다."
+      },
+      {
+        "name": "엔비디아",
+        "note": "2027년 이후의 장기 성장성에 대한 긍정적인 전망이 지속되고 있으며, AI 산업의 구조적 성장세는 여전히 유효한 투자 논거를 제공하고 있습니다."
+      },
+      {
+        "name": "KODEX 200",
+        "note": "내년 코스피 급락을 경고하는 자극적인 전망이 보도되었으나, 지수 투자자에게는 장기적으로 평단가를 낮출 수 있는 기회가 될 수 있음을 인지하고 노이즈로 분류해야 합니다."
+      },
+      {
+        "name": "KODEX 국고채30년",
+        "note": "최근 한 달간 3% 이상 상승하며 금리 하락기에 포트폴리오의 방어력을 높여주는 채권의 구조적 역할을 충실히 수행하고 있습니다."
+      },
+      {
+        "name": "TIGER 골드선물(H)",
+        "note": "2030년까지의 장기 강세 전망이 나오는 등 인플레이션 대비 및 위험 분산 자산으로서의 장기적 가치가 여전히 높게 평가되고 있습니다."
+      },
+      {
+        "name": "TIGER 리츠부동산인프라",
+        "note": "개별 리츠의 회생 신청 소식은 부정적이나, 제도 개선을 통한 대형화 논의가 진행 중이므로 산업 전반의 구조적 변화를 지켜볼 필요가 있습니다."
+      }
+    ],
+    "reminder": "단기적인 시장의 공포 뉴스에 흔들리지 마세요. 6개월 리밸런싱 주기와 신규 납입 원칙에 따라 목표 비중보다 낮아진 자산을 기계적으로 채워가는 것만 생각하면 충분합니다."
+  }
+}
