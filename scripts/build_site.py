@@ -23,6 +23,8 @@ WEEKDAY_KR = "월화수목금토일"
 UNIT_COLORS = {
     0: "#6E6E6E", 1: "#C2543A", 2: "#A87B2D", 3: "#2F6F5E", 4: "#B04A6E",
     5: "#3E6FA8", 6: "#6B5AA8", 7: "#2E8B8B", 8: "#7A8B2E",
+    9: "#8B5A2B", 10: "#2F5D8A", 11: "#B08A1E", 12: "#9B3D5A",
+    13: "#5A5A8B", 14: "#C2543A", 15: "#2F6F5E", 16: "#4A6FA8",
 }
 
 FAVICON = ("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' "

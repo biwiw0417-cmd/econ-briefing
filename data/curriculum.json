@@ -318,5 +318,325 @@
     "completed": true,
     "date": "2026-09-10",
     "briefing_url": "/archive/2026-09-10/"
+  },
+  {
+    "unit": 9,
+    "unit_title": "기업 읽기",
+    "topic": "재무제표 3종 (손익계산서·재무상태표·현금흐름표)",
+    "completed": true,
+    "date": "2026-10-05",
+    "briefing_url": "/archive/2026-10-05/"
+  },
+  {
+    "unit": 9,
+    "unit_title": "기업 읽기",
+    "topic": "PER·PBR·ROE로 기업 가격 읽기",
+    "completed": false,
+    "date": null,
+    "briefing_url": null
+  },
+  {
+    "unit": 9,
+    "unit_title": "기업 읽기",
+    "topic": "이익보다 중요한 현금흐름",
+    "completed": false,
+    "date": null,
+    "briefing_url": null
+  },
+  {
+    "unit": 9,
+    "unit_title": "기업 읽기",
+    "topic": "배당은 어디서 나오나",
+    "completed": false,
+    "date": null,
+    "briefing_url": null
+  },
+  {
+    "unit": 9,
+    "unit_title": "기업 읽기",
+    "topic": "기업가치는 어떻게 평가하나 (DCF 개념)",
+    "completed": false,
+    "date": null,
+    "briefing_url": null
+  },
+  {
+    "unit": 10,
+    "unit_title": "채권·금리 심화",
+    "topic": "수익률곡선이란",
+    "completed": false,
+    "date": null,
+    "briefing_url": null
+  },
+  {
+    "unit": 10,
+    "unit_title": "채권·금리 심화",
+    "topic": "장단기 금리 역전은 왜 경기침체 신호인가",
+    "completed": false,
+    "date": null,
+    "briefing_url": null
+  },
+  {
+    "unit": 10,
+    "unit_title": "채권·금리 심화",
+    "topic": "듀레이션 (금리에 대한 채권의 민감도)",
+    "completed": false,
+    "date": null,
+    "briefing_url": null
+  },
+  {
+    "unit": 10,
+    "unit_title": "채권·금리 심화",
+    "topic": "신용스프레드 (위험의 가격)",
+    "completed": false,
+    "date": null,
+    "briefing_url": null
+  },
+  {
+    "unit": 10,
+    "unit_title": "채권·금리 심화",
+    "topic": "국채와 회사채의 차이",
+    "completed": false,
+    "date": null,
+    "briefing_url": null
+  },
+  {
+    "unit": 11,
+    "unit_title": "대체자산",
+    "topic": "금은 왜 오르고 내리나",
+    "completed": false,
+    "date": null,
+    "briefing_url": null
+  },
+  {
+    "unit": 11,
+    "unit_title": "대체자산",
+    "topic": "원자재와 유가",
+    "completed": false,
+    "date": null,
+    "briefing_url": null
+  },
+  {
+    "unit": 11,
+    "unit_title": "대체자산",
+    "topic": "리츠의 구조 (부동산을 주식처럼)",
+    "completed": false,
+    "date": null,
+    "briefing_url": null
+  },
+  {
+    "unit": 11,
+    "unit_title": "대체자산",
+    "topic": "부동산과 금리의 관계",
+    "completed": false,
+    "date": null,
+    "briefing_url": null
+  },
+  {
+    "unit": 11,
+    "unit_title": "대체자산",
+    "topic": "암호화폐는 자산인가",
+    "completed": false,
+    "date": null,
+    "briefing_url": null
+  },
+  {
+    "unit": 12,
+    "unit_title": "행동경제학",
+    "topic": "손실회피 (잃는 고통은 두 배)",
+    "completed": false,
+    "date": null,
+    "briefing_url": null
+  },
+  {
+    "unit": 12,
+    "unit_title": "행동경제학",
+    "topic": "확증편향과 과신",
+    "completed": false,
+    "date": null,
+    "briefing_url": null
+  },
+  {
+    "unit": 12,
+    "unit_title": "행동경제학",
+    "topic": "군중심리와 버블",
+    "completed": false,
+    "date": null,
+    "briefing_url": null
+  },
+  {
+    "unit": 12,
+    "unit_title": "행동경제학",
+    "topic": "앵커링 (첫 숫자에 묶이는 뇌)",
+    "completed": false,
+    "date": null,
+    "briefing_url": null
+  },
+  {
+    "unit": 12,
+    "unit_title": "행동경제학",
+    "topic": "좋은 투자 습관 설계하기",
+    "completed": false,
+    "date": null,
+    "briefing_url": null
+  },
+  {
+    "unit": 13,
+    "unit_title": "경제위기의 역사",
+    "topic": "1929 대공황",
+    "completed": false,
+    "date": null,
+    "briefing_url": null
+  },
+  {
+    "unit": 13,
+    "unit_title": "경제위기의 역사",
+    "topic": "1997 외환위기",
+    "completed": false,
+    "date": null,
+    "briefing_url": null
+  },
+  {
+    "unit": 13,
+    "unit_title": "경제위기의 역사",
+    "topic": "2008 글로벌 금융위기",
+    "completed": false,
+    "date": null,
+    "briefing_url": null
+  },
+  {
+    "unit": 13,
+    "unit_title": "경제위기의 역사",
+    "topic": "2020 코로나 쇼크",
+    "completed": false,
+    "date": null,
+    "briefing_url": null
+  },
+  {
+    "unit": 13,
+    "unit_title": "경제위기의 역사",
+    "topic": "위기들의 공통점과 교훈",
+    "completed": false,
+    "date": null,
+    "briefing_url": null
+  },
+  {
+    "unit": 14,
+    "unit_title": "한국 경제 구조",
+    "topic": "수출 의존과 반도체 사이클",
+    "completed": false,
+    "date": null,
+    "briefing_url": null
+  },
+  {
+    "unit": 14,
+    "unit_title": "한국 경제 구조",
+    "topic": "가계부채와 부동산",
+    "completed": false,
+    "date": null,
+    "briefing_url": null
+  },
+  {
+    "unit": 14,
+    "unit_title": "한국 경제 구조",
+    "topic": "저출산·고령화의 경제적 의미",
+    "completed": false,
+    "date": null,
+    "briefing_url": null
+  },
+  {
+    "unit": 14,
+    "unit_title": "한국 경제 구조",
+    "topic": "원화와 외국인 자금",
+    "completed": false,
+    "date": null,
+    "briefing_url": null
+  },
+  {
+    "unit": 14,
+    "unit_title": "한국 경제 구조",
+    "topic": "한국은행과 정부의 역할 분담",
+    "completed": false,
+    "date": null,
+    "briefing_url": null
+  },
+  {
+    "unit": 15,
+    "unit_title": "세금·연금·계좌",
+    "topic": "ISA (개인종합자산관리계좌)",
+    "completed": false,
+    "date": null,
+    "briefing_url": null
+  },
+  {
+    "unit": 15,
+    "unit_title": "세금·연금·계좌",
+    "topic": "연금저축과 IRP",
+    "completed": false,
+    "date": null,
+    "briefing_url": null
+  },
+  {
+    "unit": 15,
+    "unit_title": "세금·연금·계좌",
+    "topic": "해외주식 세금 (양도세·배당세)",
+    "completed": false,
+    "date": null,
+    "briefing_url": null
+  },
+  {
+    "unit": 15,
+    "unit_title": "세금·연금·계좌",
+    "topic": "국민연금은 어떻게 굴러가나",
+    "completed": false,
+    "date": null,
+    "briefing_url": null
+  },
+  {
+    "unit": 15,
+    "unit_title": "세금·연금·계좌",
+    "topic": "절세 계좌 활용 순서",
+    "completed": false,
+    "date": null,
+    "briefing_url": null
+  },
+  {
+    "unit": 16,
+    "unit_title": "글로벌 거시와 미래",
+    "topic": "미국 연준 읽는 법",
+    "completed": false,
+    "date": null,
+    "briefing_url": null
+  },
+  {
+    "unit": 16,
+    "unit_title": "글로벌 거시와 미래",
+    "topic": "중국 경제의 구조와 리스크",
+    "completed": false,
+    "date": null,
+    "briefing_url": null
+  },
+  {
+    "unit": 16,
+    "unit_title": "글로벌 거시와 미래",
+    "topic": "AI와 생산성",
+    "completed": false,
+    "date": null,
+    "briefing_url": null
+  },
+  {
+    "unit": 16,
+    "unit_title": "글로벌 거시와 미래",
+    "topic": "탈세계화와 공급망 재편",
+    "completed": false,
+    "date": null,
+    "briefing_url": null
+  },
+  {
+    "unit": 16,
+    "unit_title": "글로벌 거시와 미래",
+    "topic": "에너지 전환의 경제학",
+    "completed": false,
+    "date": null,
+    "briefing_url": null
   }
 ]
