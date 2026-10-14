@@ -379,9 +379,9 @@
     "unit": 10,
     "unit_title": "채권·금리 심화",
     "topic": "듀레이션 (금리에 대한 채권의 민감도)",
-    "completed": false,
-    "date": null,
-    "briefing_url": null
+    "completed": true,
+    "date": "2026-10-14",
+    "briefing_url": "/archive/2026-10-14/"
   },
   {
     "unit": 10,
