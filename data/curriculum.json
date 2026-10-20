@@ -411,9 +411,9 @@
     "unit": 11,
     "unit_title": "대체자산",
     "topic": "원자재와 유가",
-    "completed": false,
-    "date": null,
-    "briefing_url": null
+    "completed": true,
+    "date": "2026-10-20",
+    "briefing_url": "/archive/2026-10-20/"
   },
   {
     "unit": 11,
