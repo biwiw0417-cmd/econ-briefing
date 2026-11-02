@@ -1,8 +1,6 @@
 name: weekly-portfolio
 
 on:
-  schedule:
-    - cron: '47 21 * * 0'  # UTC 일요일 21:47 = KST 월요일 06:47
   workflow_dispatch:
 
 permissions:
