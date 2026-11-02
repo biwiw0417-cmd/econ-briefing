@@ -483,9 +483,9 @@
     "unit": 13,
     "unit_title": "경제위기의 역사",
     "topic": "1929 대공황",
-    "completed": false,
-    "date": null,
-    "briefing_url": null
+    "completed": true,
+    "date": "2026-11-02",
+    "briefing_url": "/archive/2026-11-02/"
   },
   {
     "unit": 13,
